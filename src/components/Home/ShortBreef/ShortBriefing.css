@@ -1,0 +1,12 @@
+/* img:hover {
+    padding: 20px;
+    transition: 0.9s;
+  } */
+
+  img, .icon{
+    transition: transform .7s ease-in-out;
+  }
+  img:hover, .icon:hover{
+    transition: 1.5s;
+    transform: rotateX(360deg);
+  }
